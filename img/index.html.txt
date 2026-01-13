@@ -1,0 +1,8 @@
+meine-website/
+│── index.html
+└── images/
+    ├── newyork.jpg
+    ├── malediven.jpg
+    ├── japan.jpg
+    ├── dubai.jpg
+    └── paris.jpg
