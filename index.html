@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Die schönsten Orte der Welt</title>
+<style>
+/* Grundlayout */
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+
+body {
+background-color: #f4f4f4;
+color: #333;
+line-height: 1.6;
+}
+
+
+header {
+background: linear-gradient(135deg, #1e90ff, #00bcd4);
+color: white;
+padding: 2rem 1rem;
+text-align: center;
+}
+
+
+header h1 {
+font-size: 2.2rem;
+}
+
+
+header p {
+margin-top: 0.5rem;
+font-size: 1.1rem;
+}
+
+
+main {
+max-width: 1200px;
+margin: 2rem auto;
+padding: 0 1rem;
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+gap: 1.5rem;
+}
+
+
+.card {
+background: white;
+border-radius: 12px;
+overflow: hidden;
+box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+transition: transform 0.3s ease;
+}
+
+
+.card:hover {
+transform: translateY(-5px);
+}
+
+
+.card img {
+width: 100%;
+height: 200px;
+object-fit: cover;
+}
+
+
+.card-content {
+padding: 1rem;
+}
+
+
+.card-content h2 {
+margin-bottom: 0.5rem;
+color: #1e90ff;
+
+
+.card-content p {
+font-size: 0.95rem;
+margin-bottom: 0.5rem;
+}
+
+
+footer {
+text-align: center;
+padding: 1.5rem 1rem;
+background-color: #222;
+color: white;
+margin-top: 2rem;
+}
+
+
+/* Responsive Anpassungen */
+@media (max-width: 600px) {
+header h1 {
+font-size: 1.8rem;
+}
+
+
+.card img {
+height: 170px;
+}
+}
+</style>
+</head>
+<body>
+
+
+<header>
+<h1>Die schönsten Orte der Welt</h1>
+<p>Faszinierende Reiseziele und warum sie so besonders sind</p>
+</header>
+
+
+<main>
+<!-- New York -->
+<div class="card">
+<!-- Bild hier einfügen: z.B. images/newyork.jpg -->
+<img src="images/newyork.jpg" alt="New York Skyline">
+<div class="card-content">
+<h2>New York, USA</h2>
+<p>New York ist bekannt für seine beeindruckende Skyline, das pulsierende Stadtleben und berühmte Orte wie den Times Square und den Central Park.</p>
+<p><strong>Fakt:</strong> New York wird auch „Die Stadt, die niemals schläft“ genannt.</p>
+</div>
+</div>
+
+
+<!-- Malediven -->
+<div class="card">
+<img src="images/malediven.jpg" alt="Malediven Strand">
+<div class="card-content">
+<h2>Malediven</h2>
+<p>Die Malediven begeistern mit weißen Sandstränden, türkisfarbenem Wasser und einer einzigartigen Unterwasserwelt.</p>
+<p><strong>Fakt:</strong> Die Malediven bestehen aus über 1.000 Koralleninseln.</p>
+</div>
+</div>
+
+
+<!-- Japan -->
+<div class="card">
+<img src="images/japan.jpg" alt="Japan Kirschblüten">
+<div class="card-content">
+<h2>Japan</h2>
+<p>Japan verbindet moderne Städte mit traditioneller Kultur, Tempeln und wunderschöner Natur wie Kirschblüten.</p>
+<p><strong>Fakt:</strong> Japan besteht aus rund 6.800 Inseln.</p>
+</div>
+</div>
+
+
+<!-- Dubai -->
+<div class="card">
+<img src="images/dubai.jpg" alt="Dubai Skyline">
+<div class="card-content">
+<h2>Dubai, VAE</h2>
+<p>Dubai ist bekannt für Luxus, moderne Architektur und spektakuläre Bauwerke wie den Burj Khalifa.</p>
+<p><strong>Fakt:</strong> Der Burj Khalifa ist das höchste Gebäude der Welt.</p>
+</div>
+</div>
+
+
+<!-- Paris -->
+<div class="card">
+<img src="images/paris.jpg" alt="Eiffelturm Paris">
+<div class="card-content">
+<h2>Paris, Frankreich</h2>
+<p>Paris gilt als Stadt der Liebe und beeindruckt mit Kunst, Geschichte und Sehenswürdigkeiten wie dem Eiffelturm.</p>
+<p><strong>Fakt:</strong> Paris wird oft als kulturelles Zentrum Europas bezeichnet.</p>
+</div>
+</div>
+</main>
+
+
+<footer>
+<p>© 2026 Die schönsten Orte der Welt</p>
+</footer>
+
+
+</body>
+</html>
